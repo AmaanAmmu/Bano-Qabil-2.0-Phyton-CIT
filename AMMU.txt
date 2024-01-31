@@ -1,0 +1,65 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+print("AMMU")
+'''my intro'''    #MY INTRO
+print("hi i am using phyton programming and this is my first p programming class and later i want to be a amazing programmer")
+number= -10.6
+name="programiz"
+#print litreal
+print("5")
+print(number)
+print(name)
+num =input("enter a number=")
+print("your entered",num)
+print("enter type a number",type(num))
+#gets user input
+name=input("what is your name?")
+num=input("what is your fav number?")
+print("")
+#user input to print info")
+print("HELLO" + name + "!")
+print(num +"! that my fav number too!")
+print("")
+a=88
+b=55
+print("sum=",a+b)
+print("subtract=",a-b)
+print("multi=",a*b)
+print("div=",a/b)
+print("modulus=",a%b)
+print("power=",a**b)
+print("float division",a//b)
+a+=b
+print(a)
+print("a==b =",a==b)
+print('a!=b=',a!=b)
+print('a>b=',a>b)
+print('a<b=',a<b)
+print('a>=b=',a>=b)
+print('a<=b=',a<=b)
+#logical AND
+print(True and False)
+print(True and False)
+#logical OR
+print(True or False)
+#logical NOT
+print(not True)
+num1=5
+print(num1,"is of type",type(num1))
+num2=6.0
+print(num2,"is of type",type(num2))
+num3=1+2j
+print(num3,"is type",type(num3))
+import time
+def countdown(time_sec):
+    while time_sec:
+        mins, secs = divmod(time_sec, 60)
+        timeformat = '{:02d}:{:02d}'.format(mins, secs)
+        print(timeformat, end='\r')
+        time.sleep(1)
+        time_sec -= 1
+
+    print("stop")
+
+countdown(5)
+
